@@ -6,13 +6,10 @@ public class switchEx {
         int Button = sc.nextInt();
 
         switch(Button){
-            case 1 : System.out.println("Hello");
-            break;
-            case 2 : System.out.println("Namaste");
-            break;
-            case 3 : System.out.println("Bonjur");
-            break;
-            default : System.out.println("Invalid Button");
+            case 1 -> System.out.println("Hello");
+            case 2 -> System.out.println("Namaste");
+            case 3 -> System.out.println("Bonjur");
+            default -> System.out.println("Invalid Button");
         }
     }
     
